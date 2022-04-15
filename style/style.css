@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.copa-conatiner {
+    background-color: rgb(10, 10, 88);
+
+}
+
+.copa-headline {
+    display: flex;
+}
+
+.head-phara {
+
+    color: aliceblue;
+    padding-left: 150px;
+    padding-right: 250px;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+
+.c-hedaing {
+    margin-bottom: 0PX;
+}
+
+.c-video {
+    color: aliceblue;
+    background-color: rgb(235, 2, 99);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 1PX;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.fa-arrow-right {
+    color: white;
+    font-size: 15px;
+}
+
+.head-img img {
+    width: 500px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.head-img:hover img {
+    transform: rotate(5deg);
+    transition: transform 1s ease-ot;
+}
+
+/* this is player stayle .............
+.;................. */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.player {
+    padding-top: 15px;
+    border: 1px solid white;
+
+    margin-right: 3%;
+    text-align: justify;
+    width: 270px;
+    vertical-align: top;
+    z-index: 1;
+    /* eat ro bujte hobe */
+    box-shadow: 1px 1px 150px 5px rgba(214, 210, 210, 0.664);
+}
+
+.player p,
+h2 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.players img {
+
+    width: 250px;
+}
+
+/* highlight ................
+..........................
+....................... */
+.highlights {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 210px;
+    margin-top: 100px;
+
+
+}
+
+.highlight-heading p {
+    font-size: 12px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.hightlight-img img {
+
+    padding: 10px 10px 40px 80px;
+    width: 60%;
+}
+
+/* footer  */
+footer {
+    bottom: 0;
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer img {
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.f-icon {
+    text-align: center;
+    color: rgba(72, 73, 73, 0.267);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+/* ..........THE END ................
+///////////////////////////////////// */

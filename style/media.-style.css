@@ -1,0 +1,108 @@
+/* .............This is mobile media quary .............
+.........................................................
+.........................................................*/
+@media only screen and (max-width: 680px) {
+    main {
+        width: 100%;
+    }
+
+    .copa-conatiner {
+        width: 100%;
+    }
+
+    .head-img img {
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 15px;
+    }
+
+    .head-phara {
+
+        margin-left: 0px;
+        padding-left: 15px;
+        padding-right: 20px;
+        width: 50%;
+        margin-top: 50px;
+
+    }
+
+    .fa-arrow-right {
+        font-size: 10px;
+    }
+
+    .c-video {
+        font-size: 10px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    /* this is main contain  */
+    .palyers-container {
+        margin-left: 30px;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+
+    }
+
+    .players img {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    .player>p {
+        width: 80%;
+        text-align: justify;
+        font-size: 80%;
+
+    }
+
+    /* highlight container style  */
+    .highlight-container {
+        width: 100%;
+    }
+
+    .highlights {
+        display: flex;
+        padding-top: 20px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .highlight-heading>p {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .h-highlight {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .hightlight-img img {
+
+        padding-top: 50px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+
+    /* footer style  */
+    footer {
+        margin-bottom: 50px;
+        margin-top: 40px;
+        width: 100%;
+    }
+}
